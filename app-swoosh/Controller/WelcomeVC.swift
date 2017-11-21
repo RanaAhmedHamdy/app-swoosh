@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeVC.swift
 //  app-swoosh
 //
 //  Created by Hazem Mohamed Magdy on 11/21/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func unwindsequee(segue: UIStoryboardSegue) {
+        
+    }
 }
 
