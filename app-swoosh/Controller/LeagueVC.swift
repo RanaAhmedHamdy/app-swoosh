@@ -53,5 +53,8 @@ class LeagueVC: UIViewController {
         }
     }
    
+    @IBAction func unwindsequeeToLeague(segue: UIStoryboardSegue) {
+        
+    }
 
 }
