@@ -10,17 +10,33 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    var player: Player!
+    @IBOutlet weak var finishBtn: BorderButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(player.desiredLeague!)
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func beginnerBtnPressed(_ sender: Any) {
+        setPlayerProffLevel(level: .beginner)
     }
     
+    @IBAction func ballerBtnPressed(_ sender: Any) {
+        setPlayerProffLevel(level: .baller)
+    }
+    
+    @IBAction func finishBtnPressed(_ sender: Any) {
+    }
+    
+    func setPlayerProffLevel(level: ProffLevel) {
+        player.profficiencyLevel = level
+        print(player.profficiencyLevel!)
+        
+        finishBtn.isEnabled = true
+    }
 
     /*
     // MARK: - Navigation
