@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,14 +21,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="83S-wl-ANI">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cA9-SY-4rE" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="16" y="591" width="343" height="56"/>
+                                <rect key="frame" x="16" y="492" width="288" height="56"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.6525577910958904" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="dQQ-6c-5sN"/>
@@ -42,16 +42,16 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="LSd-5P-myH">
-                                <rect key="frame" x="128" y="60" width="119" height="20"/>
+                                <rect key="frame" x="100.5" y="60" width="119" height="20"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgi-gx-8tG">
-                                <rect key="frame" x="36" y="252.5" width="303" height="30"/>
+                                <rect key="frame" x="8.5" y="252.5" width="303" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udd-08-PaJ">
-                                <rect key="frame" x="36" y="354.5" width="303" height="46.5"/>
+                                <rect key="frame" x="8.5" y="354.5" width="303" height="46.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="303" id="w4K-95-Kf9"/>
                                 </constraints>
@@ -60,7 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIT-8T-8kh">
-                                <rect key="frame" x="37.5" y="184" width="300" height="68.5"/>
+                                <rect key="frame" x="10" y="184" width="300" height="68.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="KTf-u6-8bU"/>
                                 </constraints>
@@ -101,17 +101,17 @@
             <objects>
                 <viewController id="27c-nq-AKQ" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ta3-ut-MRc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeagueBG" translatesAutoresizingMaskIntoConstraints="NO" id="0Mo-ro-zB5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Dov-y2-G96">
-                                <rect key="frame" x="16" y="218.5" width="343" height="208"/>
+                                <rect key="frame" x="16" y="218.5" width="288" height="208"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vss-MD-1KO" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="56"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.65255779110000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="lHa-fU-8Fb"/>
@@ -122,7 +122,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pht-6c-F9t" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="76" width="343" height="56"/>
+                                        <rect key="frame" x="0.0" y="76" width="288" height="56"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.65255779110000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="pbb-7a-Bx7"/>
@@ -133,7 +133,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWH-Yw-7sn" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="152" width="343" height="56"/>
+                                        <rect key="frame" x="0.0" y="152" width="288" height="56"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.65255779110000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="6q4-em-4ku"/>
@@ -146,16 +146,16 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="PB7-16-Zs9">
-                                <rect key="frame" x="128" y="40" width="119" height="20"/>
+                                <rect key="frame" x="100.5" y="40" width="119" height="20"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired league:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMz-ss-b21">
-                                <rect key="frame" x="116.5" y="106" width="142" height="27.5"/>
+                                <rect key="frame" x="89" y="106" width="142" height="27.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzC-fH-EKa" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="16" y="591" width="343" height="56"/>
+                                <rect key="frame" x="16" y="492" width="288" height="56"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.65255779110000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="ESS-tr-iDY"/>
@@ -164,6 +164,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextBtnPressed:" destination="27c-nq-AKQ" eventType="touchUpInside" id="iAV-4h-Qcj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gig-FU-VzU">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -198,6 +201,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eqL-FV-sHk"/>
                     </view>
+                    <connections>
+                        <segue destination="soz-6G-Mo7" kind="show" identifier="skillVCSegue" id="JlC-GW-K2l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcs-Xq-7lf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Yvs-ZS-I96" userLabel="Exit" sceneMemberID="exit"/>
@@ -209,14 +215,14 @@
             <objects>
                 <viewController id="soz-6G-Mo7" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ku2-Fq-vHE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beginnerBallerBG" translatesAutoresizingMaskIntoConstraints="NO" id="4t6-VF-ykU">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PN-fx-TpK" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="16" y="591" width="343" height="56"/>
+                                <rect key="frame" x="16" y="492" width="288" height="56"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.65255779110000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="NTo-MX-MeE"/>
@@ -227,19 +233,19 @@
                                 </state>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8fj-3I-rds">
-                                <rect key="frame" x="128" y="40" width="119" height="20"/>
+                                <rect key="frame" x="100.5" y="40" width="119" height="20"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cr-iJ-kwI">
-                                <rect key="frame" x="151" y="106" width="72.5" height="30.5"/>
+                                <rect key="frame" x="124" y="106" width="72.5" height="30.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="LC6-JL-bVc">
-                                <rect key="frame" x="40" y="191.5" width="295" height="45"/>
+                                <rect key="frame" x="40" y="191.5" width="240" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4to-XL-QGl" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.74569242294520544" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="24"/>
                                         <state key="normal" title="Beginner">
@@ -247,7 +253,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Tf-9m-tW2" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="167.5" y="0.0" width="127.5" height="45"/>
+                                        <rect key="frame" x="140" y="0.0" width="100" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.74569242290000004" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="24"/>
                                         <state key="normal" title="Baller">
@@ -265,9 +271,6 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="bfk-Ju-Ddh"/>
                                 </constraints>
                                 <state key="normal" image="backButton"/>
-                                <connections>
-                                    <segue destination="VaN-hM-gIp" kind="unwind" unwindAction="unwindsequeeWithSegue:" id="jtD-kX-dwb"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -276,26 +279,25 @@
                             <constraint firstItem="VZt-Mq-pQu" firstAttribute="trailing" secondItem="LC6-JL-bVc" secondAttribute="trailing" constant="40" id="5c9-Z2-Cde"/>
                             <constraint firstItem="VZt-Mq-pQu" firstAttribute="bottom" secondItem="7PN-fx-TpK" secondAttribute="bottom" constant="20" id="G1V-OS-k8z"/>
                             <constraint firstItem="LC6-JL-bVc" firstAttribute="leading" secondItem="VZt-Mq-pQu" secondAttribute="leading" constant="40" id="LtI-fv-V66"/>
+                            <constraint firstItem="4t6-VF-ykU" firstAttribute="top" secondItem="ku2-Fq-vHE" secondAttribute="top" id="O4P-B8-GX4"/>
                             <constraint firstItem="e92-lC-y4T" firstAttribute="top" secondItem="ku2-Fq-vHE" secondAttribute="top" constant="10" id="UiJ-Uf-ITa"/>
-                            <constraint firstItem="4t6-VF-ykU" firstAttribute="leading" secondItem="VZt-Mq-pQu" secondAttribute="leading" id="a4C-Iz-Sj1"/>
+                            <constraint firstItem="4t6-VF-ykU" firstAttribute="trailing" secondItem="VZt-Mq-pQu" secondAttribute="trailing" id="aWN-NE-A9m"/>
                             <constraint firstItem="8fj-3I-rds" firstAttribute="centerX" secondItem="ku2-Fq-vHE" secondAttribute="centerX" id="dpD-1O-OsN"/>
+                            <constraint firstItem="4t6-VF-ykU" firstAttribute="bottom" secondItem="VZt-Mq-pQu" secondAttribute="bottom" id="fs1-n3-XoX"/>
                             <constraint firstItem="VZt-Mq-pQu" firstAttribute="trailing" secondItem="7PN-fx-TpK" secondAttribute="trailing" constant="16" id="hPz-Oz-9gl"/>
+                            <constraint firstItem="4t6-VF-ykU" firstAttribute="leading" secondItem="VZt-Mq-pQu" secondAttribute="leading" id="jzF-Ru-Nfg"/>
                             <constraint firstItem="7PN-fx-TpK" firstAttribute="leading" secondItem="VZt-Mq-pQu" secondAttribute="leading" constant="16" id="kLS-Db-7Z5"/>
-                            <constraint firstItem="VZt-Mq-pQu" firstAttribute="trailing" secondItem="4t6-VF-ykU" secondAttribute="trailing" id="nPT-f1-WY6"/>
                             <constraint firstItem="8fj-3I-rds" firstAttribute="top" secondItem="VZt-Mq-pQu" secondAttribute="top" constant="20" id="oii-jv-rVA"/>
                             <constraint firstItem="8cr-iJ-kwI" firstAttribute="centerX" secondItem="ku2-Fq-vHE" secondAttribute="centerX" id="pht-Hf-UkZ"/>
-                            <constraint firstItem="4t6-VF-ykU" firstAttribute="top" secondItem="VZt-Mq-pQu" secondAttribute="top" id="rC0-c5-NaF"/>
                             <constraint firstItem="e92-lC-y4T" firstAttribute="leading" secondItem="VZt-Mq-pQu" secondAttribute="leading" id="sDZ-vJ-AoL"/>
-                            <constraint firstItem="VZt-Mq-pQu" firstAttribute="bottom" secondItem="4t6-VF-ykU" secondAttribute="bottom" id="sls-lL-a0U"/>
                             <constraint firstItem="8cr-iJ-kwI" firstAttribute="top" secondItem="8fj-3I-rds" secondAttribute="bottom" constant="46" id="wMc-mn-1IS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VZt-Mq-pQu"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ua-jd-avd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="VaN-hM-gIp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1293.5999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="1349.5999999999999" y="116.49175412293854"/>
         </scene>
     </scenes>
     <resources>
